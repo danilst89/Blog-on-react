@@ -1,0 +1,29 @@
+.PostNew {
+    width: 350px;
+}
+
+.InputFlex {
+    display: flex;
+    align-items: center;
+}
+
+.InputFlex .textArea {
+    margin-left: 15px;
+}
+
+.InputButton {
+    display: block;
+    margin: 25px auto;
+    width: 170px;
+    height: 40px;
+    cursor: pointer;
+    background-color: #000;
+    color: #fff;
+    transition: .3s ease-in-out;
+    border: none;
+}
+
+.InputButton:hover {
+    background-color: #e6e6e6;
+    color: #000;
+}

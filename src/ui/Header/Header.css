@@ -1,0 +1,42 @@
+.Header {
+    display: flex;
+    margin: 0 0 25px 0;
+    padding: 0;
+    justify-content: space-around;
+    border-bottom: 2px solid #000;
+    align-items: center;
+    max-width: 100%;
+}
+
+.Header li {
+    display: inline;
+    margin: 20px;
+    list-style: none;
+}
+
+.Header li a {
+    text-decoration: none;
+    color: #000;
+    font-size: 23px;
+}
+
+.Header li a.active:after {
+    width: 100%;
+}
+
+.Header a:after {
+    content: '';
+    left: 0;
+    /*изменить на right:0;, чтобы изменить направление подчёркивания */
+    width: 0;
+    /*задаём длинну линии до наведения курсора*/
+    height: 3px;
+    background-color: #000;
+    display: block;
+    transition: width 0.2s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+    width: 100%;
+}

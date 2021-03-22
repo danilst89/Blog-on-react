@@ -1,0 +1,56 @@
+.Blog {
+    max-width: 1320px;
+    margin: 0 auto;
+}
+
+.Blog .flex {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Blog .flex .flexComponent .fa, .fas {
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.Blog .flex .flexComponent .fas {
+    color: #706969;
+}
+
+.Blog .flex .flexComponent .fas {
+    margin-right: 20px;
+}
+
+.typeFilter {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.typeFilter a {
+    font-size: 24px;
+    text-decoration: none;
+    margin-left: 15px;
+    margin-top: 15px;
+    color: #1f3688;
+    transition: .2s ease-in-out;
+}
+
+.typeFilter a:first-child {
+    margin-left: 0;
+}
+
+.typeFilter a:first-child:hover {
+    color: #000;
+}
+
+.typeFilter a:hover {
+    color: #fde910;
+}
+
+.typeFilter a:hover:nth-child(2) {
+    color: red;
+}
+
