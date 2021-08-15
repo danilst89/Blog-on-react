@@ -47,7 +47,7 @@ export default class App extends Component {
         texts.splice(index, 1);
         this.setState({
             articles: texts
-        })
+        });
     }
 
     sortByLiked = (e) => {
